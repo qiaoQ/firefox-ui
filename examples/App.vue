@@ -12,6 +12,8 @@
       </div>
     </template>
     </Card>
+    <button @click="showToast">点我提示</button>
+    <Toast :isShow="true"/>
   </div>
 </template>
 
@@ -19,6 +21,11 @@
 
 export default {
   name: 'app',
+  methods: {
+    showToast() {
+      this.$toast('提示提示提示')
+    }
+  }
 }
 </script>
 

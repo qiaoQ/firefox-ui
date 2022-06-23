@@ -1,7 +1,9 @@
 import Card from "./card";
+import Toast from "./toast";
 
 const compnents = {
   Card,
+  Toast,
 }
 const install = function(Vue) {
   if (install.installed) return;

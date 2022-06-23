@@ -16,7 +16,8 @@ Vue.use(MUI);
 
 // 按需引入
 import 'firefox/dist/css/card.css';
-import { Card } from 'firefox-ui';
+import { Card, Toast } from 'firefox-ui';
 Vue.use(Card)
+Vue.use(Toast)
 ```
  
